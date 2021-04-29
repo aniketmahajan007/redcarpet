@@ -8,6 +8,8 @@ Hosted : https://redcarpetloan.herokuapp.com/
 
 You can also use Docker image to run on local machine
 
+    docker pull aniketmahajan/redcarpet
+
 # Stack:
 Python , Flask, PostgreSQL
 
