@@ -188,3 +188,28 @@ This endpoint can only access by user role - 3 which means admin and used to cha
 Note: App-Token is given after successfully login
       
 If App-token is not added on required endpoints , Token missing response will be sent.
+
+
+# Dummy Id
+        
+        Role: 2 ( Agent )
+
+        {
+        "email": "rahul@gmail.com",
+        "password": "rahul12345"
+        }
+
+
+        Role: 3 ( Admin )
+
+        {
+        "email": "priya@gmail.com",
+        "password": "priya12345"
+        }
+
+        Role: 1 ( Customer )
+
+        {
+        "email": "mohit@gmail.com",
+        "password": "mohit12345"
+        }
