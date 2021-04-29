@@ -9,6 +9,8 @@ Hosted : https://redcarpetloan.herokuapp.com/
 You can also use Docker image to run on local machine
 
     docker pull aniketmahajan/redcarpet
+    docker run -p 5000:5000 aniketmahajan/redcarpet
+
 
 # Stack:
 Python , Flask, PostgreSQL
@@ -70,6 +72,15 @@ Which can access by everyone used to login and access services after registering
 
   
 - /agent/gen_loan
+
+        Required POST data: 
+        loan_quantity
+        loan_interest
+        tenture
+        ofuser
+        
+        Required Header:
+        App-token
     
     This endpoint can only access by user role - 2 which means agent and is used to generate loan
   
